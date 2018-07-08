@@ -18,5 +18,9 @@ public class ComputerTest {
         System.out.println();
         System.out.printf("Clock signal of computer number 1 after reduction: %.2f\n", over1.decreaseCPuClock(comp1, 1.6));
         System.out.printf("Clock signal of computer number 2 after reduction: %.2f", over1.decreaseCPuClock(comp1, 3));
+
+        System.out.println();
+        ComputerAssembly compAss = new ComputerAssembly(comp2,proc1,mem2);
+        System.out.println(compAss.assembly());
     }
 }
