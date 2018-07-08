@@ -1,7 +1,8 @@
 public class Memory {
-    String producer, model, clocksignal;
+    String producer, model;
+    double clocksignal;
 
-    Memory(String producer, String model, String clocksignal)
+    Memory(String producer, String model, double clocksignal)
     {
         this.producer = producer;
         this.model = model;

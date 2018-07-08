@@ -1,9 +1,9 @@
 public class Procesor {
     String producer;
     String model;
-    String clocksignal;
+    double clocksignal;
 
-    Procesor(String producer, String model, String clocksignal)
+    Procesor(String producer, String model, double clocksignal)
     {
         this.producer = producer;
         this.model = model;
